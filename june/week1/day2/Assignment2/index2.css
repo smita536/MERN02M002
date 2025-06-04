@@ -1,0 +1,83 @@
+/* Background and layout */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glassmorphism login box */
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 40px 30px;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  color: white;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 25px;
+}
+
+/* Form fields */
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Options like Remember me and Forgot password */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.options a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Register link */
+.register {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.register a {
+  color: white;
+  text-decoration: underline;
+}
