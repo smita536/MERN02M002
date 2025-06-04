@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+.login-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot {
+  text-align: right;
+  margin-top: 8px;
+}
+
+.forgot a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #666;
+}
+
+.login-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+}
+
+footer span {
+  color: red;
+  font-weight: bold;
+}
