@@ -1,0 +1,77 @@
+/* !Space :-Descedent selector */
+/* !  > :-Direct Child selector */
+/* ! + :-Adjacent sibling selector */
+/* ! ~ :-General Sibling selector */
+
+
+div~p{
+    background-color: red;
+}
+
+/*! Attribute Selector */
+[id]{
+    color: blue;
+}
+/*! Attribute with value */
+[id="box1"]{
+    color: red;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+}
+#box{
+    width: 100px;
+    height: 100px;
+    border:2px solid aqua;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Display Property */
+
+.box-container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.box{
+    /* width: 50px; */
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ p{
+    background-color: red;
+    display: inline;
+    width: 300px;
+}
+
+span{
+    background-color: blue;
+    display: block;
+    width: 300px;
+}
+
+strong{
+    background-color: aqua;
+    display: inline-block;
+    width: 300px;
+}

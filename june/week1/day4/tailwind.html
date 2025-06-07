@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+</head>
+<body class="flex justify-center items-center h-screen">
+    <div class="w-[500px] h-[500px] border-2 border-solid border-blue-900 p-2 gap-2 grid mmax-md:grid-rows-4 max-md:grid-cols-3 hover:bg-red-600">
+        <div class="border-1 border-solid borde- black-600 col-start-1 col-end-4 bg-red-600">header</div>
+        <div class="border-1 border-solid borde- black-600 row-start-2 row-end-4 bg-blue-600">sidebar</div>
+        <div class="border-1 border-solid borde- black-600 col-start-2 col-end-4 bg-linear-to-r from-cyan-500">content1</div>
+        <div class="border-1 border-solid borde- black-600">content2</div>
+        <div class="border-1 border-solid borde- black-600">content3</div>
+        <div class="border-1 border-solid borde- black-600">footer</div>
+    </div>    
+</body>
+</html>

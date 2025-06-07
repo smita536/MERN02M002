@@ -1,0 +1,59 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+#head2 {
+    background-color: blue;
+}
+
+.head3 {
+    background-color: aqua;
+}
+
+h4,
+h5,
+h6 {
+    background-color: blueviolet;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YIGV8GTRHiW_KACLMhhi9fEq2T5BDQcEyA&s");
+    background-position: center;
+    background-size: contain;
+}
+
+div:hover {
+    background-color: red;
+}
+
+div:active {
+    background-color: green;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul li:nth-child(2) {
+    background-color: red;
+}
+
+ul li:nth-child(n+3) {
+    background-color: green;
+}
+
+p {
+    color: aqua;
+}
