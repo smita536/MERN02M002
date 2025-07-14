@@ -11,7 +11,7 @@ const Login = () => {
 
   const handelLogin = async () => {
     try {
-      const res = await axios.post(`$ { baseUrl}/user/login`, {
+      const res = await axios.post(`${baseUrl}/user/login`, {
         email,
         password,
       });
